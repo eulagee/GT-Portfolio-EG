@@ -1,0 +1,76 @@
+body {
+    background-image: url(../images/background.png);
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    justify-content: end;
+    background-color: rgba(0, 0, 0);
+    /* position: sticky;
+    top: 0; */
+}
+
+.navbar-brand {
+    color: lightgray!important;
+}
+
+.navbar-brand:hover {
+    color: white!important;
+}
+
+.content {
+    min-height: calc(100vh - 0px);
+    background-color: transparent;
+    margin-bottom: 50px;
+}
+
+.section1 {
+    min-height: calc(100vh - 0px);
+    padding-top: 12%;
+}
+
+.section1 .row {
+    background: rgba(0, 0, 0, .3);
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+}
+
+@media (min-width: 767.98px) {
+    #home,
+    #resume {
+        background-size: 120%;
+    }
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+}
+
+.section-header {
+    text-align: center;
+    color: #66FCF1;
+}
+
+#about div {
+    padding: 10px;
+    background: rgba(0, 0, 0, .3);
+    margin: 5px;
+    margin-top: 76px;
+}
+
+#about h3 {
+    color: lightgray;
+    text-align: center;
+}
