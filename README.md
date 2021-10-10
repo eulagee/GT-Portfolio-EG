@@ -13,4 +13,4 @@
 
  # Live link to deployed app
 
-
+https://eulagee.github.io/GT-Portfolio-EG/
